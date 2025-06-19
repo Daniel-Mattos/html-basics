@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pizza</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/index.html">Home</a>
+			<a href="/tags.html">Tags</a>
+			<a href="/formatting.htm">Formatting</a>
+		</nav>
+	</header>
+	<main>
+		<form method="get">
+			<h3>Você selecionou: Pizza de Calabresa</h3>
+			<p>Quais Opcionais você deseja?</p>
+			<input type="checkbox" disabled name="opcional[]" value="queijo"> + queijo<br>
+			<input type="checkbox" name="opcional[]" value="calabresa">+ calabresa<br>
+			<input type="checkbox" name="opcional[]" value="cebola">+ cebola<br>
+			<input type="checkbox" name="opcional[]" value="azeitona"> + azeitona<br>
+
+			<p>Borda recheada?</p>
+			<input type="radio" name="borda" value="sim">Sim<br>
+			<input type="radio" name="borda" value="nao">Não<br>
+
+			<p>Bebida</p>
+			<input type="radio" name="drink" value="suco">Suco<br>
+			<input type="radio" name="drink" value="efrigerante">Refrigerante<br>
+			<input type="radio" name="drink" value="agua">Água<br>
+			<input type="radio" name="drink" value="nenhum">Nenhum<br>
+
+			<button type="submit">Enviar formulario</button>
+		</form>
+		
+	</main>
+</body>
+</html>
